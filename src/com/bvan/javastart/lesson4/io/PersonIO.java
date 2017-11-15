@@ -21,8 +21,6 @@ public class PersonIO {
         System.out.print("Enter age: ");
         int age = scan.nextInt();
 
-        scan.close(); // (optional)
-
         // BL
         String message = "Hello, I'm " + name + ", "
                 + age + " years old";
