@@ -1,4 +1,4 @@
-package com.bvan.javastart.prev_lessons;
+package com.bvan.javastart.lesson3.type.object_type;
 
 import java.lang.String;
 

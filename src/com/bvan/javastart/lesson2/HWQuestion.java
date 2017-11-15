@@ -1,4 +1,4 @@
-package com.bvan.javastart.prev_lessons;
+package com.bvan.javastart.lesson2;
 
 /**
  * @author bvanchuhov
@@ -10,4 +10,7 @@ public class HWQuestion {
         x += x++ + ++x;
         System.out.println(x);
     }
+
+
 }
+
