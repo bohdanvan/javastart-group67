@@ -9,11 +9,12 @@ public class EvensRangePrinter {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("enter number 1: ");
+
+        System.out.println("Enter from : ");
         int from = scan.nextInt();
-        System.out.println("enter number 2: ");
+
+        System.out.println("Enter to: ");
         int to = scan.nextInt();
-        scan.close();
 
         if (from % 2 != 0) {
             from++;
