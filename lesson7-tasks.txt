@@ -1,0 +1,64 @@
+1. LinePrinter
+Написать метод, выводящий в консоль линию из звездочек.
+В случае некорректных входных значений, бросать IllegalArgumentException.
+
+void printLine(int count) { ... }
+
+Примеры:
+printLine(4) -> ****
+printLine(0) -> <empty line>
+printLine(-10) -> IllegalArgumentException
+
+------------------------
+
+2. TrianglePrinter
+Написать метод, выводящий в консоль треугольник.
+В случае некорректных входных значений, бросать IllegalArgumentException.
+Использовать метод void printLine(int count).
+
+void printTriangle(int size) { ... }
+
+Примеры:
+printTriangle(4) ->
+*
+**
+***
+****
+
+printTriangle(0) -> <empty line>
+printTriangle(-10) -> IllegalArgumentException
+
+------------------------
+
+3. TeenagersCounter
+Написать метод, который для массива возрастов подсчитывает количество подростковых возрастов.
+Возраст подростка - 12...18.
+
+int countTeenagers(int[] ages) { ... }
+
+Примеры:
+countTeenagers(new int[] {30, 15, 12, 40, 10, 15}) -> 3
+countTeenagers(new int[] {30, 40, 10}) -> 0
+
+------------------------
+
+4. AgesValidator
+Написать метод, который проверяет, являются ли все элементы в массиве возрастами.
+Возраст - число 1..120.
+
+boolean isAges(int[] array) { ... }
+
+Примеры:
+isAges(new int[] {30, 15, 10}) -> true
+isAges(new int[] {30, -15, 10}) -> false
+
+------------------------
+
+5 (*). TeenagersFinder
+Написать метод, который в массиве возрастов находит всех подростков.
+
+int[] findTeenagers(int[] ages) { ... }
+
+Примеры:
+countTeenagers(new int[] {30, 15, 12, 40, 10, 15}) -> {15, 12, 15}
+countTeenagers(new int[] {30, 40, 10}) -> {}
