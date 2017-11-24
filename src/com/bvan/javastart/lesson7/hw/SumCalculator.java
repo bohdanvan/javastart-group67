@@ -1,4 +1,4 @@
-package com.bvan.javastart.lesson7;
+package com.bvan.javastart.lesson7.hw;
 
 /**
  * @author bvanchuhov
@@ -13,7 +13,6 @@ public class SumCalculator {
     }
 
     public static int sum(int a, int b) {
-        int sum = a + b;
-        return sum;
+        return a + b;
     }
 }

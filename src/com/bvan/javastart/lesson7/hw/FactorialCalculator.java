@@ -1,4 +1,4 @@
-package com.bvan.javastart.lesson7;
+package com.bvan.javastart.lesson7.hw;
 
 /**
  * @author bvanchuhov
