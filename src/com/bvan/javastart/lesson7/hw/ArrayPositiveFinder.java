@@ -8,7 +8,7 @@ public class ArrayPositiveFinder {
     public static void main(String[] args) {
         int[] array = {-3, 0, -1, 20, -2, 10};
 
-        int index = findFirstPositiveElemIndex(array);
+        int index = findFirstPositiveElem(null);
 
         System.out.println("index = " + index);
     }

@@ -6,7 +6,7 @@ package com.bvan.javastart.lesson7.hw;
 public class FactorialCalculator {
 
     public static void main(String[] args) {
-        long x = factorial(-100);
+        long x = factorial(20);
         System.out.println(x); // 6
     }
 
